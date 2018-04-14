@@ -1,0 +1,20 @@
+‘à ¢­¥­¨¥ ä ©«®¢ D:\2018-TELEGRAM\’…‹…ƒ€Œ-’ Œ€‘’…\COURSE\VIDEOKURS\PART2\BLOCK1\19\SRC\index.js ¨ INDEX.JS
+***** D:\2018-TELEGRAM\’…‹…ƒ€Œ-’ Œ€‘’…\COURSE\VIDEOKURS\PART2\BLOCK1\19\SRC\index.js
+const TelegramBot = require('node-telegram-bot-api')
+const mongoose = require('mongoose')
+***** INDEX.JS
+process.env["NTBA_FIX_319"] = 1
+const TelegramBot = require('node-telegram-bot-api')
+const mongoose = require('mongoose')
+*****
+
+***** D:\2018-TELEGRAM\’…‹…ƒ€Œ-’ Œ€‘’…\COURSE\VIDEOKURS\PART2\BLOCK1\19\SRC\index.js
+  } else if (type === ACTION_TYPE.SHOW_CINEMAS) {
+    sendCinemasByQuery(userId, {uuid: {'$in': data.cinemaUuids}})
+  } else if (type === ACTION_TYPE.TOGGLE_FAV_FILM) {
+***** INDEX.JS
+  } else if (type === ACTION_TYPE.SHOW_CINEMAS) {
+    sendCinemasByQuery(userID, {uuid: {'$in': data.cinemaUuids}})
+  } else if (type === ACTION_TYPE.TOGGLE_FAV_FILM) {
+*****
+
